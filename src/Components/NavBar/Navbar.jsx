@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navbar = () => {
   return (
     <div className="navBar lg:flex justify-between items-center p-[3rem] min-[360px] ">
@@ -9,7 +7,9 @@ const Navbar = () => {
         </h1>
       </div>
       <div className="menu lg:flex   sm:flex text-[#6f6f6f]   md:flex  gap-8 ">
-        <li className="menuList  hover:text-blueIs">Jobs</li>
+        <Link to="#" className="menuList  hover:text-blueIs">
+          Jobs
+        </Link>
         <li className="menuList  hover:text-blueIs">Companies</li>
         <li className="menuList  hover:text-blueIs">About</li>
         <li className="menuList  hover:text-blueIs">Contact</li>
