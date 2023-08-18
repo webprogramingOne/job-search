@@ -1,4 +1,4 @@
-import { BiTimeFive } from "react-icons/Bi";
+import { BiTimeFive } from "react-icons/bi";
 import Logo1 from "../../assets/1.png";
 import Logo2 from "../../assets/2.png";
 import Logo3 from "../../assets/3.png";
